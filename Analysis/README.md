@@ -1,0 +1,1 @@
+This folder contains the code used for analysis and generating the figures that appear in the associated paper. For full replication, you will need to generate the experiment result files that belong in the subfolders here. Only mmlu data is shared here due to lincesing constraints.
