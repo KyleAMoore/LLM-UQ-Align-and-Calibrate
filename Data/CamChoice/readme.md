@@ -1,0 +1,4 @@
+
+Original data provided under a custom license at https://researchdatasets.cambridge.org/datasets/cambridge-multiple-choice-questions-reading-dataset
+
+The dataset has been rearranged using the included file to fit the experiment pipeline and expected dataframe format. In addition, datapoints without human response distribution data (referred to as 'facility' in the original work) have been removed for irrelevance to the current work, leaving 502 of the original 793 questions. No other changes/additions/removals were made. Due to licensing restrictions, we are not permitted to redistribute this dataset. Requests to obtain the original data should be directed to the author of the original paper.

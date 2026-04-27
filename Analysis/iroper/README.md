@@ -1,1 +1,0 @@
-This folder is a placeholder that should hold the csv files generated in to experiment pipeline. The data files used originally are not shared because they include licensed data that we are not at liberty to share publicly. See the paper linked on the home directory README to see how the dataset was constructed.
