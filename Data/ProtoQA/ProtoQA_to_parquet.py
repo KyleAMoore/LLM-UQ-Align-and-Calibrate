@@ -34,12 +34,14 @@ def parse_record(record):
         'Question':      question,
         'Answers':       answers,
         'Answer_Ratios': answer_ratios,
+        'Response_Count': total_responses
     }
 
 parsed = [parse_record(r) for r in rows]
-
-# ── 3. Build DataFrame and save ─────────────────────────────────────
 df = pd.DataFrame(parsed)
-df.to_parquet('protoqa_data.parquet', index=False)
 
+# Remove questions with anomalous answer choice counts.
+df = df.loc[df['Answers'].apply(lambda x: 1 < len(x) < 10)]
+
+df.to_parquet('protoqa_data.parquet', index=False)
 print(f"Saved {len(df)} rows to train_familyfeud.parquet")
