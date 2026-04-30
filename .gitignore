@@ -206,5 +206,11 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+Analysis/Results/camchoice/*
+Analysis/Results/coane/*
+Analysis/Results/mmlu/*
+Analysis/Results/protoqa/*
+!Analysis/Results/*/README.md
+
 # Temporary. Remove during analysis development
-Analysis/Uncertainty_Analysis.ipynb
+# Analysis/Uncertainty_Analysis.ipynb
