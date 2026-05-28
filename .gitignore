@@ -205,13 +205,3 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
-
-# Temporary comment for access during travel. Look into removal from history.
-# Analysis/Results/camchoice/*
-# Analysis/Results/coane/*
-# Analysis/Results/mmlu/*
-# Analysis/Results/protoqa/*
-# !Analysis/Results/*/README.md
-
-# Temporary. Remove during analysis development
-# Analysis/Uncertainty_Analysis.ipynb
